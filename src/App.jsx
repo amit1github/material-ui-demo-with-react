@@ -73,8 +73,8 @@ const App = () => {
         <Container className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
             {Cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4} lg={3}>
-                <Card className={classes.card} sx={{ maxWidth: 345 }}>
+              <Grid item key={card} xs={12} sm={6} md={4} lg={4}>
+                <Card className={classes.card} >
                   <CardMedia
                     className={classes.cardMedia}
                     image="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"

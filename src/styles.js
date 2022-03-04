@@ -28,7 +28,7 @@ const useStyles = makeStyles({
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        // position: "relative"
+        position: "relative"
     },
 
     cardMedia: {
